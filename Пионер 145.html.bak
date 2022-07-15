@@ -1,0 +1,14 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title> JavaScript </title>
+<meta charset="utf-8">
+</head>
+<img src="Фотки/ПНЕ 1.jpeg">
+<h4>Пионер-145 (1- модель первая, 45 - калибр 4,5 мм) — российская магазинная пневматическая винтовка .<br> Предназначена для начальной подготовки биатлонистов.<br> Впервые была представлена на выставке "Оружие и охота 2016".<br><h4>
+<body>
+<button> Купить </button>
+<script type="text/javascript" src="script.js">
+</script>                                                                       
+</body>
+</html>

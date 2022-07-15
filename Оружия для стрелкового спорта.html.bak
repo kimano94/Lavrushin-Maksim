@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+<html>
+<meta charset="utf-8">
+<style>
+.r {
+display: flex;
+}
+</style>
+<script>
+
+
+</script>
+</head>
+<body>
+ 
+  <a href=".html"><img src="Фотки/ОР 1.jpeg" title="MP-46M" width="300"></a>
+  <a href=".html"><img src="Фотки/ОР 2.jpeg" title="MP-61C" width="500"></a>
+   <a href=".html"><img src="Фотки/ОР 3.jpeg" title="MP-521C-06" width="500"></a>
+    <a href=".html"><img src="Фотки/ОР 4.jpeg" title="PCP Ataman Tactical Carabine Type 1 M2R 225 RB" width="500"></a>

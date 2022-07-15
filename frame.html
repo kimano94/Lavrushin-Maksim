@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> фреймы </title>
+<head>
+<style type="text/css">
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: lightcoral;
+        transition: all 0.25s;
+        color: #ffffff;
+      }
+
+      div {
+        text-align: center;
+      }
+
+      button {
+        border: 1px solid #FFF;
+        padding: 15px 20px;
+        border-radius: 20px;
+        background: transparent;
+        cursor: pointer;
+        outline: none;
+        color: #FFF;
+      }
+
+      h1,
+      h3 {
+        animation: down /*название анимации*/ 0.25s;
+      }
+
+      /*начало анимации
+      пункт назначения анимации*/
+      @keyframes down {
+        from {
+          transform: translateY(-50px); /*задаем позицию*/
+        }
+
+        to {
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3>Времени : интерактив</h3>
+      <h1>Сейчас 13:30:12</h1>
+      <button>Сменить фон</button>
+    </div>
+
+    <script>
+      //const name = "Времени: ";
+      
+      document.querySelector("h3").textContent = "Времени: " + name;
+
+      document.querySelector("h1").textContent =
+        "Сейчас " + new Date().toLocaleTimeString();
+
+      setInterval(function () {
+        document.querySelector("h1").textContent =
+          "Сейчас " + new Date().toLocaleTimeString();
+      });
+
+      const colors = ["coral", "indigo", "#e0458a", "#f0a64d", "#648d64", "lightcoral"];
+      let index = 0;
+
+      document.querySelector("button").onclick = function () {
+        document.body.style.background = colors[index];
+        index++;
+        //запустить по кругу массива
+        if (index >= colors.length) index = 0;
+      };
+    </script>
+  </body>
+</html>
+
+<p>Группа вк:<p>
+
+<p>Мы в телеграмме:<p>
+
+<p>И также инстограм:<p>
+
+Номер организатора:
+

@@ -1,0 +1,15 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>Блочный</title>
+<meta charset="utf-8">
+</head>
+<img src="Фотки/Лук 3.jpeg" width="500">
+<h4><h4>
+
+<body>
+<button> Купить </button>
+<script type="text/javascript" src="script.js">
+</script>                                                                       
+</body>
+</html>
